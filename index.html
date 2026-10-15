@@ -1,140 +1,103 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f7f4ed">
-  <meta name="description" content="TEHRAN: Persisches Streetfood in Darmstadt. Entdecke Sandwiches, Burger, Ash Reshteh und mehr. Neueröffnung am 1. November 2026.">
+  <meta name="theme-color" content="#005951">
+  <meta name="description" content="TEHRAN bringt persisches Streetfood nach Darmstadt: Sandwiches, Burger, Ash Reshteh und mehr. Neueröffnung am 1. November 2026. Entdecke unsere Speisekarte.">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="TEHRAN | Ein Stück Teheran in Darmstadt">
-  <meta property="og:description" content="Persische Klassiker, Streetfood und ganz viel Herz. Ab dem 1. November 2026 in Darmstadt.">
+  <meta property="og:title" content="TEHRAN — Persian Streetfood in Darmstadt">
+  <meta property="og:description" content="Von Teheran nach Darmstadt. Persische Sandwiches, Burger und mehr. Ab 01.11.2026.">
   <meta property="og:locale" content="de_DE">
   <title>TEHRAN | Persian Streetfood Darmstadt</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700;800&family=Vazirmatn:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
-  <script defer src="/app.js"></script>
-  <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"FoodEstablishment","name":"TEHRAN Imbiss","servesCuisine":"Persian","description":"Persisches Streetfood in Darmstadt","address":{"@type":"PostalAddress","streetAddress":"Eschollbrücker Straße 42","postalCode":"64295","addressLocality":"Darmstadt","addressCountry":"DE"},"telephone":"+49 176 31071158","email":"tehran.foodtruck2633@gmail.com","sameAs":["https://www.instagram.com/Tehran.foodtruck/"],"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday","Friday"],"opens":"10:30","closes":"22:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"10:30","closes":"23:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"09:00","closes":"22:30"}]}
-  </script>
+  <script src="/app.js" defer></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FoodEstablishment","name":"TEHRAN Imbiss","servesCuisine":"Persian","address":{"@type":"PostalAddress","streetAddress":"Eschollbrücker Straße 42","postalCode":"64295","addressLocality":"Darmstadt","addressCountry":"DE"},"telephone":"+49 176 31071158","email":"tehran.foodtruck2633@gmail.com","sameAs":["https://www.instagram.com/Tehran.foodtruck/"],"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday","Friday"],"opens":"10:30","closes":"22:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"10:30","closes":"23:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"09:00","closes":"22:30"}]}</script>
 </head>
 <body>
-  <a class="skip-link" href="#content">Zum Inhalt springen</a>
-  <div class="announcement"><div class="wrap announcement-inner"><span><span class="status-dot"></span> COMING SOON <span class="announcement-line"></span> NEUERÖFFNUNG AM 01. NOVEMBER 2026</span><a href="#besuch">DARMSTADT <span aria-hidden="true">↗</span></a></div></div>
-  <header class="header">
-    <div class="wrap header-inner">
-      <a class="logo" href="#start" aria-label="Tehran Foodtruck Startseite"><span class="logo-mark" aria-hidden="true">ت</span><span class="logo-type"><strong>TEHRAN<span class="orange">.</span></strong><small>PERSIAN STREET FOOD</small></span></a>
-      <nav class="desktop-nav" aria-label="Hauptnavigation"><a href="#konzept">Unsere Story</a><a href="#menu">Speisekarte</a><a href="#besuch">Besuch uns</a></nav>
-      <a class="nav-cta" href="#menu">Menü entdecken <span aria-hidden="true">↗</span></a>
-      <button class="nav-toggle" id="nav-toggle" aria-controls="mobile-nav" aria-label="Navigation öffnen" aria-expanded="false" type="button"><span></span><span></span></button>
-    </div>
-    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile Navigation" hidden><a href="#konzept">Unsere Story <span aria-hidden="true">↗</span></a><a href="#menu">Speisekarte <span aria-hidden="true">↗</span></a><a href="#besuch">Besuch uns <span aria-hidden="true">↗</span></a><a href="https://www.instagram.com/Tehran.foodtruck/" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a></nav>
+  <a class="skip-link" href="#main">Direkt zum Inhalt</a>
+  <div class="topline" aria-label="Neueröffnung"><span>NEUERÖFFNUNG · 01. NOVEMBER 2026</span><span>DARMSTADT, DE <span aria-hidden="true">↗</span></span></div>
+  <header class="site-header">
+    <a class="brand" href="#start" aria-label="TEHRAN, zurück zum Anfang"><span class="brand-seal" lang="fa">ت</span><span class="brand-copy"><strong>TEHRAN<span class="brand-stop">.</span></strong><small>PERSIAN STREETFOOD</small></span></a>
+    <nav class="header-nav" aria-label="Hauptnavigation"><a href="#story">DIE IDEE</a><a href="#speisekarte">SPEISEKARTE</a><a href="#kontakt">BESUCH UNS</a></nav>
+    <a class="header-action" href="#speisekarte">ZUM MENÜ <span aria-hidden="true">↗</span></a>
   </header>
-  <main id="content">
-    <section id="start" class="hero" aria-labelledby="main-title">
-      <div class="wrap hero-layout">
-        <div class="hero-copy">
-          <div class="eyebrow hero-eyebrow"><span class="sparkle">✳</span> AUS TEHERAN. FÜR DARMSTADT.</div>
-          <h1 id="main-title">Ein Stück<br><em>Teheran.</em></h1>
-          <p>Persisches Streetfood, wie wir es lieben. Frisch gemacht, voller Geschmack und immer mit einer Extraportion Herz.</p>
-          <div class="hero-actions"><a href="#menu" class="button button-primary">Unsere Speisekarte <span aria-hidden="true">↗</span></a><a class="button-text" href="#besuch">Hier findest du uns <span aria-hidden="true">↗</span></a></div>
-          <div class="hero-date"><span class="short-rule"></span> AB 01.11.2026 <span class="date-split">/</span> ESCHOLLBRÜCKER STR. 42</div>
+  <main id="main">
+    <section class="hero" id="start" aria-labelledby="hero-title">
+      <div class="hero-frame">
+        <div class="hero-topline"><span><span class="small-circle"></span> PERSIAN STREETFOOD</span><span>TEHERAN <span aria-hidden="true">→</span> DARMSTADT</span></div>
+        <div class="hero-word" aria-hidden="true"><svg viewBox="0 0 1500 350" preserveAspectRatio="none" focusable="false"><text x="0" y="298" font-size="345" font-family="'Barlow Condensed',Impact,sans-serif" font-weight="900" textLength="1455" lengthAdjust="spacingAndGlyphs" fill="#f8f5ed">TEHRAN</text><text x="1470" y="54" font-size="28" font-family="Arial,sans-serif" fill="#f3ce73">®</text></svg></div>
+        <div class="hero-bottom">
+          <div class="hero-copy"><div class="hello" lang="fa" dir="rtl">سلام دارمشتات!</div><h1 id="hero-title">GUTE IDEEN.<br>GUTES ESSEN.</h1><p>Ein Stück Teheran, mitten in Darmstadt. Ehrliches persisches Streetfood, frisch gemacht und voller Geschmack.</p><a href="#speisekarte" class="primary-button">UNSERE SPEISEKARTE <span aria-hidden="true">↗</span></a></div>
+          <div class="truck-poster" aria-label="Grafische Illustration des TEHRAN Foodtrucks">
+            <span class="poster-corner poster-corner-top">FRESH<br>DAILY!</span>
+            <svg class="truck-art" viewBox="0 0 740 500" role="img" aria-label="Illustrierter Imbisswagen mit TEHRAN Schriftzug">
+              <defs><pattern id="hatch" patternUnits="userSpaceOnUse" width="15" height="15" patternTransform="rotate(55)"><path d="M0 0V15" stroke="#00635a" stroke-opacity=".09" stroke-width="5"/></pattern></defs>
+              <circle cx="402" cy="232" r="219" fill="#f9e5aa"/>
+              <circle cx="402" cy="232" r="196" fill="none" stroke="#e5bb5b" stroke-width="2" stroke-dasharray="3 13"/>
+              <path d="M130 430H697" stroke="#003e3a" stroke-width="11" stroke-linecap="round"/>
+              <path d="M148 161H591L650 206V410H142V192Q142 161 148 161Z" fill="#f5f1dd" stroke="#003e3a" stroke-width="10" stroke-linejoin="round"/>
+              <path d="M142 320H650V409H142Z" fill="#e76b4c"/>
+              <path d="M142 320H650" stroke="#003e3a" stroke-width="10"/>
+              <path d="M563 209H621V305H563Z" fill="#b5d9ce" stroke="#003e3a" stroke-width="8"/>
+              <path d="M577 229H608" stroke="#003e3a" stroke-width="7" stroke-linecap="round"/>
+              <path d="M174 190H538V311H174Z" fill="#005951" stroke="#003e3a" stroke-width="9"/>
+              <path d="M177 191H535V228H177Z" fill="#e76b4c"/>
+              <path d="M177 190V228M222 190V228M267 190V228M312 190V228M357 190V228M402 190V228M447 190V228M492 190V228M535 190V228" stroke="#f5f1dd" stroke-width="10" stroke-dasharray="25 19"/>
+              <path d="M190 225H521V294H190Z" fill="#003e3a"/>
+              <rect x="214" y="241" width="94" height="14" rx="7" fill="#e7bc63"/>
+              <path d="M222 244C225 225 292 225 300 244" fill="#f8d68f"/>
+              <path d="M227 254H298L292 264H231Z" fill="#e76b4c"/>
+              <rect x="354" y="240" width="114" height="48" rx="3" fill="#f5f1dd"/>
+              <text x="411" y="263" font-family="Arial,sans-serif" font-weight="900" font-size="23" text-anchor="middle" letter-spacing="-2" fill="#005951">TEHRAN</text>
+              <text x="411" y="277" font-family="Arial,sans-serif" font-weight="700" font-size="9" text-anchor="middle" letter-spacing="2" fill="#005951">FOODTRUCK</text>
+              <path d="M182 340H352" stroke="#f5f1dd" stroke-width="3" opacity=".75"/>
+              <text x="184" y="376" font-family="Arial,sans-serif" font-size="26" font-weight="900" fill="#fff6de" letter-spacing="2">GOOD FOOD.</text>
+              <path d="M181 392H347" stroke="#f5f1dd" stroke-width="3" opacity=".75"/>
+              <rect x="575" y="340" width="53" height="27" rx="4" fill="#f4cd7b" stroke="#003e3a" stroke-width="5"/>
+              <path d="M158 399H636" stroke="#003e3a" stroke-width="9"/>
+              <circle cx="254" cy="412" r="49" fill="#003e3a"/>
+              <circle cx="254" cy="412" r="25" fill="#f4cd7b"/>
+              <circle cx="254" cy="412" r="9" fill="#e76b4c"/>
+              <circle cx="543" cy="412" r="49" fill="#003e3a"/>
+              <circle cx="543" cy="412" r="25" fill="#f4cd7b"/>
+              <circle cx="543" cy="412" r="9" fill="#e76b4c"/>
+              <path d="M173 163H576" stroke="#003e3a" stroke-width="16" stroke-linecap="round"/>
+              <path d="M149 161L163 135H583L600 161Z" fill="#e76b4c" stroke="#003e3a" stroke-width="9"/>
+              <path d="M205 119H363" stroke="#003e3a" stroke-width="6" stroke-linecap="round"/>
+              <path d="M205 104H317" stroke="#003e3a" stroke-width="6" stroke-linecap="round"/>
+              <g fill="#e76b4c"><path d="M113 109h13v-25h9v25h13v9h-13v25h-9v-25h-13Z"/><path d="M624 84h10V65h8v19h10v8h-10v19h-8V92h-10Z"/></g>
+            </svg>
+            <span class="poster-caption">TEHRAN FOODTRUCK&nbsp; / &nbsp;DARMSTADT</span>
+            <span class="poster-persian" lang="fa" dir="rtl">تهران</span>
+          </div>
         </div>
-        <div class="hero-visual">
-          <div class="visual-backdrop"></div>
-          <div class="hero-image"><img src="https://images.unsplash.com/photo-1553909489-cd47e0ef937f?auto=format&fit=crop&w=1300&q=82" alt="Frisch zubereitetes Sandwich, illustrative Foodfotografie" fetchpriority="high"></div>
-          <div class="circle-stamp"><span>FRESH FOOD · GOOD MOOD ·</span><b lang="fa">تهران</b><small>EST. 2026</small></div>
-          <span class="photo-index" aria-hidden="true">01 <span>/</span> 03</span>
-          <div class="visual-note"><span class="little-sparkle">✳</span> GOOD FOOD.<br>REAL FEELING.</div>
-        </div>
-      </div>
-      <div class="wrap hero-meta"><span>TEHRAN <span class="asterisk">✳</span> PERSIAN STREET FOOD</span><span>SCROLL TO EXPLORE <span aria-hidden="true">↓</span></span></div>
-    </section>
-    <div class="marquee" aria-hidden="true"><div class="marquee-track"><span>GOOD FOOD</span><b>✳</b><span>GOOD PEOPLE</span><b>✳</b><span>PERSIAN SOUL</span><b>✳</b><span>GOOD FOOD</span><b>✳</b><span>GOOD PEOPLE</span><b>✳</b><span>PERSIAN SOUL</span><b>✳</b></div></div>
-    <section id="konzept" class="story section">
-      <div class="wrap story-layout">
-        <div class="eyebrow section-tag"><span class="tag-index">01 /</span> UNSERE PHILOSOPHIE</div>
-        <div class="story-main"><h2>Großer Geschmack.<br><em>Ganz unkompliziert.</em></h2><p>Von den Straßen Teherans nach Darmstadt. Wir bringen die Aromen und Klassiker mit, die uns am Herzen liegen. Ehrliches Essen, frisch zubereitet und ohne viel Schnickschnack.</p><span class="persian-signature" lang="fa">با عشق از تهران <span aria-hidden="true">✳</span></span></div>
-        <div class="story-side"><span class="story-cross">✳</span><span>GUTES ESSEN.<br>GUTES GEFÜHL.</span></div>
-      </div>
-    </section>
-    <section id="menu" class="menu-section section" aria-labelledby="menu-title">
-      <div class="wrap">
-        <div class="menu-heading"><div><div class="eyebrow section-tag"><span class="tag-index">02 /</span> FÜR JEDEN GESCHMACK</div><h2 id="menu-title">Was darf’s <em>sein?</em></h2></div><p>Ein bisschen Heimat auf die Hand, etwas Warmes für die Seele oder einfach etwas richtig Gutes.</p></div>
-        <div class="category-tabs" role="group" aria-label="Menükategorien">
-          <button class="category-tab is-current" type="button" data-category="sandwich" aria-pressed="true"><span class="category-numeral">01</span><span class="category-title">Sandwiches</span><span class="tab-arrow" aria-hidden="true">↗</span></button>
-          <button class="category-tab" type="button" data-category="burger" aria-pressed="false"><span class="category-numeral">02</span><span class="category-title">Burger & Wurst</span><span class="tab-arrow" aria-hidden="true">↗</span></button>
-          <button class="category-tab" type="button" data-category="suppen" aria-pressed="false"><span class="category-numeral">03</span><span class="category-title">Suppen & Specials</span><span class="tab-arrow" aria-hidden="true">↗</span></button>
-          <button class="category-tab" type="button" data-category="salat" aria-pressed="false"><span class="category-numeral">04</span><span class="category-title">Salate & Beilagen</span><span class="tab-arrow" aria-hidden="true">↗</span></button>
-          <button class="category-tab" type="button" data-category="drinks" aria-pressed="false"><span class="category-numeral">05</span><span class="category-title">Getränke</span><span class="tab-arrow" aria-hidden="true">↗</span></button>
-        </div>
-        <div class="menu-panels" id="menu-panels">
-          <section class="menu-panel" id="sandwich" aria-labelledby="sandwich-heading">
-            <div class="panel-heading"><div><div class="panel-brow"><span class="small-star">✳</span> AUS DER TEHRAN KÜCHE</div><h3 id="sandwich-heading">Persische Sandwiches<span class="panel-period">.</span></h3></div><span class="panel-count">01 / 05</span></div>
-            <div class="menu-list">
-              <div class="dish"><span class="dish-id">01</span><div class="dish-info"><h4>Sandwich Kotlet</h4></div><strong class="dish-price">12,50 €</strong></div>
-              <div class="dish"><span class="dish-id">02</span><div class="dish-info"><h4>Sandwich Bandari</h4></div><strong class="dish-price">12,50 €</strong></div>
-              <div class="dish"><span class="dish-id">03</span><div class="dish-info"><h4>Kaltes Haida-Sandwich</h4></div><strong class="dish-price">12,50 €</strong></div>
-              <div class="dish"><span class="dish-id">04</span><div class="dish-info"><h4>Hähnchen-Pilz-Sandwich</h4></div><strong class="dish-price">12,50 €</strong></div>
-            </div>
-          </section>
-          <section class="menu-panel" id="burger" aria-labelledby="burger-heading">
-            <div class="panel-heading"><div><div class="panel-brow"><span class="small-star">✳</span> HEISS & HERZHAFT</div><h3 id="burger-heading">Burger & Wurst<span class="panel-period">.</span></h3></div><span class="panel-count">02 / 05</span></div>
-            <div class="menu-list">
-              <div class="dish"><span class="dish-id">01</span><div class="dish-info"><h4>Hamburger</h4></div><strong class="dish-price">10,50 €</strong></div>
-              <div class="dish"><span class="dish-id">02</span><div class="dish-info"><h4>Cheeseburger</h4></div><strong class="dish-price">11,50 €</strong></div>
-              <div class="dish"><span class="dish-id">03</span><div class="dish-info"><h4>Crispy Chicken Burger</h4></div><strong class="dish-price">11,90 €</strong></div>
-              <div class="dish"><span class="dish-id">04</span><div class="dish-info"><h4>Hot Dog</h4></div><strong class="dish-price">12,50 €</strong></div>
-            </div>
-          </section>
-          <section class="menu-panel" id="suppen" aria-labelledby="suppen-heading">
-            <div class="panel-heading"><div><div class="panel-brow"><span class="small-star">✳</span> WARM & WOHLTUEND</div><h3 id="suppen-heading">Suppen & Specials<span class="panel-period">.</span></h3></div><span class="panel-count">03 / 05</span></div>
-            <div class="menu-list">
-              <div class="dish"><span class="dish-id">01</span><div class="dish-info"><h4>Ash Reshteh</h4></div><strong class="dish-price">10,00 €</strong></div>
-              <div class="dish"><span class="dish-id">02</span><div class="dish-info"><h4>Tagessuppe</h4><p>Täglich wechselnd</p></div><strong class="dish-price">8,00 €</strong></div>
-              <div class="dish"><span class="dish-id">03</span><div class="dish-info"><h4>Persisches Wochengericht</h4><p>Einmal pro Woche, wechselndes Angebot</p></div><strong class="dish-price price-variable">Nach Angebot</strong></div>
-              <div class="dish"><span class="dish-id">04</span><div class="dish-info"><h4>Persisches Frühstück</h4><p>Frühstück mit wechselndem Angebot</p></div><strong class="dish-price price-variable">Nach Angebot</strong></div>
-            </div>
-          </section>
-          <section class="menu-panel" id="salat" aria-labelledby="salat-heading">
-            <div class="panel-heading"><div><div class="panel-brow"><span class="small-star">✳</span> FRISCH & KNACKIG</div><h3 id="salat-heading">Salate & Beilagen<span class="panel-period">.</span></h3></div><span class="panel-count">04 / 05</span></div>
-            <div class="menu-list">
-              <div class="dish"><span class="dish-id">01</span><div class="dish-info"><h4>Persischer Caesar Salat mit Safran-Hähnchen</h4><p>Klein / Groß</p></div><strong class="dish-price">5,50 / 10,00 €</strong></div>
-              <div class="dish"><span class="dish-id">02</span><div class="dish-info"><h4>Granatapfel-Walnuss-Salat</h4><p>Klein / Groß</p></div><strong class="dish-price">4,50 / 7,50 €</strong></div>
-              <div class="dish"><span class="dish-id">03</span><div class="dish-info"><h4>Pommes frites</h4></div><strong class="dish-price">4,50 €</strong></div>
-            </div>
-          </section>
-          <section class="menu-panel" id="drinks" aria-labelledby="drinks-heading">
-            <div class="panel-heading"><div><div class="panel-brow"><span class="small-star">✳</span> ETWAS ZUM TRINKEN</div><h3 id="drinks-heading">Getränke<span class="panel-period">.</span></h3></div><span class="panel-count">05 / 05</span></div>
-            <div class="menu-list">
-              <div class="dish"><span class="dish-id">01</span><div class="dish-info"><h4>Coca-Cola / Coca-Cola Zero</h4><p>0,33 l</p></div><strong class="dish-price">2,50 €</strong></div>
-              <div class="dish"><span class="dish-id">02</span><div class="dish-info"><h4>Fanta / Sprite</h4><p>0,33 l</p></div><strong class="dish-price">2,50 €</strong></div>
-              <div class="dish"><span class="dish-id">03</span><div class="dish-info"><h4>Wasser still / sprudel</h4><p>0,50 l</p></div><strong class="dish-price">2,00 €</strong></div>
-              <div class="dish"><span class="dish-id">04</span><div class="dish-info"><h4>Doogh</h4><p>0,33 l</p></div><strong class="dish-price">3,00 €</strong></div>
-            </div>
-          </section>
-        </div>
-        <div class="bundle"><div class="bundle-mark" aria-hidden="true">+</div><div class="bundle-copy"><div class="eyebrow">MACH MEHR DRAUS</div><h3>Lieber gleich als Menü.</h3><p>Jedes Sandwich oder jeden Burger mit Pommes frites und einem Softdrink (0,33 l).</p></div><div class="bundle-price"><strong>+ 5,50 €</strong><span>Mit Doogh + 0,50 € extra</span></div></div>
-        <p class="menu-disclaimer">Informationen zu Allergenen und Zusatzstoffen erhältst du vor Ort. Preise inkl. gesetzlicher MwSt.</p>
+        <div class="hero-footer"><span>AB 01.11.26 <span class="hero-footer-dot">●</span> ESCHOLLBRÜCKER STR. 42</span><span>PERSIAN STREETFOOD / DARMSTADT</span></div>
       </div>
     </section>
-    <section class="visual-break" aria-label="Persian street food">
-      <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1800&q=82" alt="Frisch zubereiteter Burger als illustrative Foodfotografie" loading="lazy">
-      <div class="visual-break-tint"></div><div class="wrap visual-break-inner"><span class="eyebrow">A LITTLE PIECE OF TEHRAN</span><h2>MADE WITH<br><em>LOVE.</em><span>✳</span></h2><p>GOOD FOOD. GOOD VIBES.</p></div>
-    </section>
-    <section id="besuch" class="visit section" aria-labelledby="visit-title">
-      <div class="wrap">
-        <div class="visit-heading"><div class="eyebrow section-tag"><span class="tag-index">03 /</span> WIR SEHEN UNS</div><h2 id="visit-title">Komm <em>vorbei.</em></h2><p>Ein Stück Teheran wartet auf dich. Wir freuen uns auf deinen Besuch in Darmstadt.</p></div>
-        <div class="visit-layout">
-          <div class="visit-card location-card"><div class="card-top"><span>01 / STANDORT</span><span aria-hidden="true">↗</span></div><h3>Darmstadt,<br>wir kommen.</h3><address>Eschollbrücker Straße 42<br>64295 Darmstadt</address><a href="https://www.google.com/maps/search/?api=1&query=Eschollbr%C3%BCcker+Stra%C3%9Fe+42+Darmstadt" target="_blank" rel="noopener noreferrer" class="link-underline">Route planen <span aria-hidden="true">↗</span></a><span class="map-doodle" aria-hidden="true">↗</span></div>
-          <div class="visit-card hours-card"><div class="card-top"><span>02 / ÖFFNUNGSZEITEN</span><span>AB 01.11.2026</span></div><h3>Immer Zeit<br>für gutes Essen.</h3><dl class="hours"><div><dt>Montag</dt><dd>Geschlossen</dd></div><div><dt>Dienstag – Freitag</dt><dd>10:30 – 22:00</dd></div><div><dt>Samstag</dt><dd>10:30 – 23:00</dd></div><div><dt>Sonntag</dt><dd>09:00 – 22:30</dd></div></dl></div>
-        </div>
-        <div class="contact-strip"><div><span>NOCH FRAGEN?</span><a href="tel:+4917631071158">+49 176 31071158 <span aria-hidden="true">↗</span></a></div><div><span>SCHREIB UNS</span><a href="mailto:tehran.foodtruck2633@gmail.com">tehran.foodtruck2633@gmail.com <span aria-hidden="true">↗</span></a></div><div><span>FOLLOW THE FOOD</span><a href="https://www.instagram.com/Tehran.foodtruck/" target="_blank" rel="noopener noreferrer">@Tehran.foodtruck <span aria-hidden="true">↗</span></a></div></div>
+    <div class="ticker" aria-hidden="true"><div class="ticker-track"><span>HANDMADE</span><span class="ticker-star">✳</span><span>PERSIAN SOUL</span><span class="ticker-star">✳</span><span>STREET FOOD</span><span class="ticker-star">✳</span><span>HANDMADE</span><span class="ticker-star">✳</span><span>PERSIAN SOUL</span><span class="ticker-star">✳</span><span>STREET FOOD</span><span class="ticker-star">✳</span></div></div>
+    <section class="manifesto" id="story" aria-labelledby="manifesto-title"><div class="manifesto-side">01 / DIE IDEE</div><div class="manifesto-body"><p class="kicker">NICHT EINFACH FAST FOOD.</p><h2 id="manifesto-title">VON TEHERAN.<br><span>FÜR DARMSTADT.</span></h2><p>Persische Klassiker mit Charakter. Ob Sandwich, Burger oder eine warme Schale Ash: Bei uns geht es um gutes Essen, unkompliziert und direkt auf die Hand.</p></div><div class="manifesto-mark" aria-hidden="true"><span lang="fa">طعم تهران</span><small>DER GESCHMACK VON TEHERAN</small></div></section>
+    <section class="menu" id="speisekarte" aria-labelledby="menu-title">
+      <div class="menu-heading"><div class="index-label">02 / UNSER MENÜ</div><div class="menu-title-group"><h2 id="menu-title">DIE <span>SPEISEKARTE.</span></h2><p>Von herzhaft bis erfrischend. Such dir aus, worauf du Lust hast.</p></div><div class="menu-stamp" aria-hidden="true">ALLES<br>FRISCH<br>GEMACHT<span>✳</span></div></div>
+      <nav class="menu-nav" aria-label="Zu den Menükategorien"><a href="#sandwiches">01&nbsp; SANDWICHES</a><a href="#burger">02&nbsp; BURGER</a><a href="#suppen">03&nbsp; SPECIALS</a><a href="#salate">04&nbsp; BEILAGEN</a><a href="#getraenke">05&nbsp; DRINKS</a></nav>
+      <div class="menu-rows">
+        <section class="menu-group" id="sandwiches" aria-labelledby="sandwich-title"><div class="menu-group-heading"><span class="group-number">01 / 05</span><h3 id="sandwich-title">PERSISCHE<br>SANDWICHES<span>↗</span></h3><span class="group-farsi" lang="fa" dir="rtl">ساندویچ</span></div><div class="dish-list"><div class="dish"><div><h4>Sandwich Kotlet</h4></div><b>12,50 €</b></div><div class="dish"><div><h4>Sandwich Bandari</h4></div><b>12,50 €</b></div><div class="dish"><div><h4>Kaltes Haida-Sandwich</h4></div><b>12,50 €</b></div><div class="dish"><div><h4>Hähnchen-Pilz-Sandwich</h4></div><b>12,50 €</b></div></div></section>
+        <section class="menu-group" id="burger" aria-labelledby="burger-title"><div class="menu-group-heading"><span class="group-number">02 / 05</span><h3 id="burger-title">BURGER<br>& WURST<span>↗</span></h3><span class="group-farsi" lang="fa" dir="rtl">برگر</span></div><div class="dish-list"><div class="dish"><div><h4>Hamburger</h4></div><b>10,50 €</b></div><div class="dish"><div><h4>Cheeseburger</h4></div><b>11,50 €</b></div><div class="dish"><div><h4>Crispy Chicken Burger</h4></div><b>11,90 €</b></div><div class="dish"><div><h4>Hot Dog</h4></div><b>12,50 €</b></div></div></section>
       </div>
+      <div class="combo" aria-label="Menü Upgrade"><div class="combo-label">MACH'S ZUM MENÜ <span aria-hidden="true">✳</span></div><div class="combo-text"><h3>MEHR DABEI.<br>MEHR GENUSS.</h3><p>Zu jedem Sandwich oder Burger: Pommes und ein Softdrink (0,33 l).</p></div><div class="combo-price"><span>FÜR NUR</span><strong>+5,50 €</strong><small>Mit Doogh +0,50 € extra</small></div></div>
+      <div class="menu-rows menu-rows-bottom">
+        <section class="menu-group" id="suppen" aria-labelledby="suppen-title"><div class="menu-group-heading"><span class="group-number">03 / 05</span><h3 id="suppen-title">SUPPEN<br>& SPECIALS<span>↗</span></h3><span class="group-farsi" lang="fa" dir="rtl">غذای گرم</span></div><div class="dish-list"><div class="dish"><div><h4>Ash Reshteh</h4></div><b>10,00 €</b></div><div class="dish"><div><h4>Tagessuppe</h4><p>Täglich wechselnd</p></div><b>8,00 €</b></div><div class="dish"><div><h4>Persisches Wochengericht</h4><p>Einmal pro Woche</p></div><b class="offer-price">Nach Angebot</b></div><div class="dish"><div><h4>Persisches Frühstück</h4><p>Wechselndes Angebot</p></div><b class="offer-price">Nach Angebot</b></div></div></section>
+        <section class="menu-group" id="salate" aria-labelledby="salate-title"><div class="menu-group-heading"><span class="group-number">04 / 05</span><h3 id="salate-title">SALATE<br>& BEILAGEN<span>↗</span></h3><span class="group-farsi" lang="fa" dir="rtl">سالاد</span></div><div class="dish-list"><div class="dish"><div><h4>Persischer Caesar Salat mit Safran-Hähnchen</h4><p>Klein / Groß</p></div><b>5,50 / 10,00 €</b></div><div class="dish"><div><h4>Granatapfel-Walnuss-Salat</h4><p>Klein / Groß</p></div><b>4,50 / 7,50 €</b></div><div class="dish"><div><h4>Pommes frites</h4></div><b>4,50 €</b></div></div></section>
+        <section class="menu-group drink-group" id="getraenke" aria-labelledby="drink-title"><div class="menu-group-heading"><span class="group-number">05 / 05</span><h3 id="drink-title">GETRÄNKE<span>↗</span></h3><span class="group-farsi" lang="fa" dir="rtl">نوشیدنی</span></div><div class="dish-list"><div class="dish"><div><h4>Coca-Cola / Coca-Cola Zero</h4><p>0,33 l</p></div><b>2,50 €</b></div><div class="dish"><div><h4>Fanta / Sprite</h4><p>0,33 l</p></div><b>2,50 €</b></div><div class="dish"><div><h4>Wasser still / sprudel</h4><p>0,50 l</p></div><b>2,00 €</b></div><div class="dish"><div><h4>Doogh</h4><p>0,33 l</p></div><b>3,00 €</b></div></div></section>
+      </div>
+      <p class="menu-note">Alle Preise inklusive gesetzlicher MwSt. Informationen zu Allergenen und Zusatzstoffen erhältst du vor Ort.</p>
     </section>
+    <section class="visit" id="kontakt" aria-labelledby="visit-title"><div class="visit-top"><div class="visit-eyebrow">03 / FINDE UNS</div><h2 id="visit-title">HALLO,<span class="visually-hidden"> DARMSTADT!</span><svg class="visit-city-art" viewBox="0 0 1500 350" preserveAspectRatio="none" aria-hidden="true" focusable="false"><text x="0" y="294" font-size="340" font-family="'Barlow Condensed',Impact,sans-serif" font-weight="900" textLength="1490" lengthAdjust="spacingAndGlyphs" fill="#f3ce73">DARMSTADT!</text></svg></h2><p>Wir freuen uns auf dich. Komm vorbei und hol dir dein Stück Teheran.</p><div class="visit-burst" aria-hidden="true">✳</div></div><div class="visit-grid"><div class="address-block"><span class="visit-number">01 — HIER SIND WIR</span><h3>MITTEN<br>IN DER STADT.</h3><address>Eschollbrücker Straße 42<br>64295 Darmstadt</address><a class="visit-link" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&amp;query=Eschollbr%C3%BCcker+Stra%C3%9Fe+42+Darmstadt">ROUTE PLANEN <span aria-hidden="true">↗</span></a></div><div class="hours-block"><span class="visit-number">02 — WANN WIR DA SIND</span><h3>ZEIT FÜR<br>GUTES ESSEN.</h3><p class="hours-intro">ÖFFNUNGSZEITEN AB DEM 01.11.2026</p><dl><div><dt>Montag</dt><dd>Geschlossen</dd></div><div><dt>Dienstag – Freitag</dt><dd>10:30 – 22:00</dd></div><div><dt>Samstag</dt><dd>10:30 – 23:00</dd></div><div><dt>Sonntag</dt><dd>09:00 – 22:30</dd></div></dl></div></div></section>
   </main>
-  <footer class="footer"><div class="wrap"><div class="footer-top"><div><a href="#start" class="footer-logo">TEHRAN<span>.</span></a><p>PERSIAN STREET FOOD<br>DARMSTADT, GERMANY</p></div><a href="#start" class="back-to-top">NACH OBEN ↑</a></div><div class="footer-bottom"><span>© <span id="year">2026</span> TEHRAN IMBISS</span><span>MIT LIEBE GEMACHT <span class="orange">✳</span> IN DARMSTADT</span><span><a href="mailto:tehran.foodtruck2633@gmail.com">KONTAKT</a> · <a href="https://www.instagram.com/Tehran.foodtruck/" target="_blank" rel="noopener noreferrer">INSTAGRAM</a></span></div></div></footer>
+  <footer class="site-footer"><div class="footer-links"><div><span>RUF UNS AN</span><a href="tel:+4917631071158">+49 176 31071158 <span aria-hidden="true">↗</span></a></div><div><span>SCHREIB UNS</span><a href="mailto:tehran.foodtruck2633@gmail.com">tehran.foodtruck2633@gmail.com <span aria-hidden="true">↗</span></a></div><div><span>AUF INSTAGRAM</span><a href="https://www.instagram.com/Tehran.foodtruck/" target="_blank" rel="noopener noreferrer">@Tehran.foodtruck <span aria-hidden="true">↗</span></a></div></div><div class="footer-bottom"><span>© <span id="year">2026</span> TEHRAN FOODTRUCK</span><span>TEHERAN → DARMSTADT</span><a href="#start">ZURÜCK NACH OBEN ↑</a></div><div class="footer-word" aria-hidden="true"><svg viewBox="0 0 1500 350" preserveAspectRatio="none" focusable="false"><text x="0" y="298" font-size="345" font-family="'Barlow Condensed',Impact,sans-serif" font-weight="900" textLength="1390" lengthAdjust="spacingAndGlyphs" fill="#005951">TEHRAN</text><circle cx="1460" cy="276" r="35" fill="#e76b4c"/></svg></div></footer>
 </body>
 </html>
