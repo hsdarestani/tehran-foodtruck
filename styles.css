@@ -224,7 +224,7 @@ img,svg{display:block;max-width:100%}
  .visit h2{font-size:clamp(95px,21vw,156px);margin-bottom:27px}
  .visit-city-art{height:clamp(91px,23vw,155px);margin-top:6px}
  .visit-top>p{font-size:13px;line-height:1.8;position:relative;z-index:2}
- .visit-burst{right:-35px;top:42%;font-size:165px;opacity:.75}
+ .visit-burst{display:none}
  .visit-grid{display:block}
  .address-block,.hours-block{padding:54px 18px 57px}
  .visit h3{font-size:clamp(59px,14vw,92px);margin:28px 0 23px}
